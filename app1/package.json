@@ -1,0 +1,15 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "description": "- This is a Node.js application built with Express.js. App1 serves as the entry point for user requests and listens on port 8080. Upon receiving a request, App1 processes part of it and then communicates with App2 to complete the request. The communication details (IP and port) for App2 are configurable via environment variables. App1 showcases the ability to handle requests and interact with another service within a Kubernetes cluster.",
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "description": "- This is a Node.js application built with Express.js. App2 listens on port 80 and responds to requests made by App1. It serves as a backend service that App1 can call to offload certain tasks or retrieve specific data necessary to complete a user request. App2 demonstrates a simple service that can be deployed and managed within a Kubernetes cluster, highlighting inter-service communication within the cluster.",
+  "author": "",
+  "license": "ISC"
+}
