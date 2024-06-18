@@ -1,4 +1,4 @@
-# Kubernetes Cluster with App1 and App2 on EKS
+# App1 and App2 on EKS
 
 This repository contains the necessary files to deploy a Kubernetes cluster with two application pods: App1 and App2, on Amazon Elastic Kubernetes Service (EKS). App1 communicates with App2 to complete a request. App1 listens on port 8080, while App2 listens on port 80. App2 pod mounts s3 bucket to read write files.
 
